@@ -1,0 +1,348 @@
+.head{
+    box-shadow: 0 3px 5px rgba(0,0,0,0.4);
+}
+
+.invisible{
+    opacity:0;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
+/* Grüne NavBar */
+.navG{
+    background: #002c14;
+    height: 1.75em;
+    
+}
+
+.headerGreen p{
+    color: aliceblue;  
+    margin-left: 2em;
+    padding-top: 0.1em;
+}
+
+.headerGreen img{
+    padding-top: 0.35em;
+    height: 1.25em;
+    float: left;
+}
+
+/* Weiße NavBar */
+.navW {
+    background: white;  
+}
+
+.logo{
+    height: 5em;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.navbar a{
+    font-weight:500;
+    color: gray;
+  text-decoration: none;
+}
+
+.navbar ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    padding-top: 1em;
+    float:left;
+    margin-right: 35px;
+}
+
+.navbar ul li :hover{
+    text-decoration: underline;
+}    
+
+.navbar ul li a:hover{
+    padding-top: 5em;
+    color: green;
+}    
+
+.notdienst img{
+    margin-top: 1em;
+    height: 60%;
+}
+
+/* Hintergrund */
+.background{
+    height:35em;
+    background: url(Main2.JPG) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Vorstellung*/
+.tristanBild img{
+    min-height: 95%;
+    padding-top: 8em;
+}
+
+.header2{
+    text-align: center;
+    font-size: 200%;
+    font-weight:bold;
+    color:grey;
+    padding-bottom: 1em;
+}
+
+.boxGreen{
+    background-color: #c8e4cc;   
+    
+}
+
+.boxGreen p{
+    padding: 3em 3em 3em 3em;
+}
+
+/* Arbeiten */
+.arbeit{
+    padding-top: 5em;   
+}
+
+.Arbeit1{
+    padding-top: 0em;
+    background-color: #1c4222;
+   /* --bs-gutter-x: 0rem; */
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-width: 5px;
+  border-color: black;
+}
+
+.Arbeit1 p{
+    font-size: 120%;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 0.6em;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+}
+
+.Arbeit1 img{
+    height: 14em;
+}
+
+.Arbeit2{
+    padding-top: 0em;
+    background-color: #1c4222;
+   /* --bs-gutter-x: 0rem; */
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-width: 5px;
+  border-color: black;
+}
+
+.Arbeit2 p{
+    font-size: 120%;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 0.6em;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+}
+
+.Arbeit2 img{
+    height: 14em;
+}
+
+.Arbeit3{
+    padding-top: 0em;
+    background-color: #1c4222;
+  /*  --bs-gutter-x: 0rem; */
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 5px;
+  border-color: black;
+}
+
+.Arbeit3 p{
+    font-size: 120%;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 0.6em;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+}
+
+.Arbeit3 img{
+    height: 14em;
+    align-content: center;
+}
+
+/* Slider */
+.carousel-item{
+    height: 32rem;
+    background-color: black;
+    color: wheat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+/* Kontakt */
+.leistungen{
+   width: 100%;
+    height: 34em;
+}
+
+.leistungen p{
+    text-align: center;
+}
+
+.header3{
+    text-align: center;
+    font-size: 200%;
+    font-weight:bold;
+    color:grey;
+    padding: 2em 2em 2em 2em;
+}
+
+.leistungen img{
+    height: auto;
+    width: auto;
+}
+
+/* footer */
+.navG2{
+    background: #002c14;
+    height: 1.75em;
+}
+
+.navG2 p{
+    padding-left: 43%;
+    color: blanchedalmond;
+    font-weight: 600;
+    
+}
+
+/* Media */
+@media (max-width: 1400px) {
+    .notdienst img{
+        display: none !important;
+    }
+
+    
+    .leistungen img{
+        
+        width: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    .navG2 p{
+        padding-left: 40%;
+    }
+}    
+
+@media (max-width: 1200px) {
+    .Arbeit1 img {
+        height: 10em;
+        width: 100%;
+    }
+
+    .Arbeit2 img {
+        height: 90%;
+        width: 100%;
+    }
+
+    .Arbeit3 img {
+        height: 90%;
+        width: 100%;
+    }
+
+    .boxGreen2 p{
+        font-size: 1.5em;
+        font-weight: 600;
+        color: black;
+        padding: 1em 1em 1em 1em;
+    }
+
+    .leistungen img{
+        
+        width: 60%;
+    }
+
+    .header2{
+        padding-top: 2em;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .leistungen img{
+        
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo{
+        display: none !important; 
+    }
+
+    .Arbeit1 img {
+        height: 80%;
+        width: 100%;
+    }
+
+    .Arbeit2 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Arbeit3 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .boxGreen2 p{
+        font-size: 1em;
+        font-weight: 600;
+        color: black;
+        padding: 1em 1em 1em 1em;
+    }
+
+    .navG2 p{
+        padding-left: 30%;
+    }
+
+    .leistungen img{
+        
+        width: 110%;
+    }
+}
